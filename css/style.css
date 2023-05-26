@@ -137,7 +137,7 @@ ol {
 .set-bg {
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: top center;
+	/* background-position: top center; */
 }
 
 .spad {
@@ -983,7 +983,10 @@ ol {
 .latest-product__slider.owl-carousel .owl-nav button:last-child {
 	margin-right: 0;
 }
-
+.product__item:hover{
+	/* background-color: rgb(233, 233, 233); */
+	cursor: pointer;
+}
 .latest-product__item {
 	margin-bottom: 20px;
 	overflow: hidden;
@@ -1042,6 +1045,7 @@ ol {
 	display: flex;
 	align-items: center;
 	padding: 45px 0 40px;
+	background-position: top center !important;
 }
 
 .breadcrumb__text h2 {
