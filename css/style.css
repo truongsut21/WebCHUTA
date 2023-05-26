@@ -1087,6 +1087,18 @@ ol {
 	margin-bottom: 35px;
 
 }
+
+.sidebar__item_categories {
+	margin-bottom: 0px !important;
+
+}
+
+.sidebar__item_categories .hero{
+	/* padding: 10px !important; */
+	/* margin: 0px; */
+
+}
+
 .sidebar__item button:hover{
 	background-color: #0491d3;
 }
