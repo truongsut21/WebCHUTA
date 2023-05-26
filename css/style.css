@@ -2656,6 +2656,11 @@ ol {
 
 .footer__about__logo {
 	margin-bottom: 15px;
+
+}
+.footer__about__logo img{
+	width: 120px;
+	
 }
 
 .footer__about__logo a {
