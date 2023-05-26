@@ -2300,6 +2300,9 @@ ol {
 .blog__item {
 	margin-bottom: 60px;
 }
+.blog__item:hover a {
+	color: #0491d3;
+}
 
 .blog__item__pic img {
 	min-width: 100%;
@@ -2463,6 +2466,9 @@ ol {
 
 .blog__sidebar__recent__item__text {
 	overflow: hidden;
+}
+.blog__sidebar__recent__item__text:hover h6{
+	color: #0491d3;
 }
 
 .blog__sidebar__recent__item__text h6 {
