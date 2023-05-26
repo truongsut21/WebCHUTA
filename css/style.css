@@ -1684,8 +1684,32 @@ ol {
 }
 
 .product__details__pic__slider.owl-carousel .owl-item img {
-	width: auto;
+	width: 120px;
+	height: 120px;
 }
+
+.product__details__info{
+	margin-bottom: 20px;
+}
+
+.product__details__info__desc{
+	margin: 25px 0;
+	padding: 25px 0;
+	border-top:  1px solid #EBEBEB;
+}
+
+.product__details__info__desc h4{
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+.product__details__des
+
+.product__details__info td{
+	padding-right: 50px;
+	line-height: 30px;
+}
+
 
 .product__details__text h3 {
 	color: #252525;
