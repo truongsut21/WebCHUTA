@@ -137,7 +137,7 @@ ol {
 .set-bg {
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: top center;
+	/* background-position: top center; */
 }
 
 .spad {
@@ -983,7 +983,10 @@ ol {
 .latest-product__slider.owl-carousel .owl-nav button:last-child {
 	margin-right: 0;
 }
-
+.product__item:hover{
+	/* background-color: rgb(233, 233, 233); */
+	cursor: pointer;
+}
 .latest-product__item {
 	margin-bottom: 20px;
 	overflow: hidden;
@@ -1042,6 +1045,7 @@ ol {
 	display: flex;
 	align-items: center;
 	padding: 45px 0 40px;
+	background-position: top center !important;
 }
 
 .breadcrumb__text h2 {
@@ -1083,6 +1087,18 @@ ol {
 	margin-bottom: 35px;
 
 }
+
+.sidebar__item_categories {
+	margin-bottom: 0px !important;
+
+}
+
+.sidebar__item_categories .hero{
+	/* padding: 10px !important; */
+	/* margin: 0px; */
+
+}
+
 .sidebar__item button:hover{
 	background-color: #0491d3;
 }
@@ -2308,6 +2324,9 @@ ol {
 .blog__item {
 	margin-bottom: 60px;
 }
+.blog__item:hover a {
+	color: #0491d3;
+}
 
 .blog__item__pic img {
 	min-width: 100%;
@@ -2471,6 +2490,9 @@ ol {
 
 .blog__sidebar__recent__item__text {
 	overflow: hidden;
+}
+.blog__sidebar__recent__item__text:hover h6{
+	color: #0491d3;
 }
 
 .blog__sidebar__recent__item__text h6 {
@@ -2664,6 +2686,11 @@ ol {
 
 .footer__about__logo {
 	margin-bottom: 15px;
+
+}
+.footer__about__logo img{
+	width: 120px;
+	
 }
 
 .footer__about__logo a {

@@ -162,6 +162,12 @@
     /*-----------------------
 		Price Range Slider
 	------------------------ */
+    // định dạng tiền
+    const VND = new Intl.NumberFormat('vi-VN', {
+        style: 'currency',
+        currency: 'VND',
+      });
+
     var rangeSlider = $(".price-range"),
         minamount = $("#minamount"),
         maxamount = $("#maxamount"),
@@ -173,12 +179,12 @@
         max: maxPrice,
         values: [minPrice, maxPrice],
         slide: function (event, ui) {
-            minamount.val('$' + ui.values[0]);
-            maxamount.val('$' + ui.values[1]);
+            minamount.val(VND.format(ui.values[0]));
+            maxamount.val( VND.format(ui.values[1]));
         }
     });
-    minamount.val('$' + rangeSlider.slider("values", 0));
-    maxamount.val('$' + rangeSlider.slider("values", 1));
+    minamount.val( VND.format(rangeSlider.slider("values", 0)));
+    maxamount.val( VND.format(rangeSlider.slider("values", 1)));
 
     /*--------------------------
         Select
