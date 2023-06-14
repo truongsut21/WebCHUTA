@@ -158,7 +158,16 @@ ol {
 }
 
 /* buttons */
-
+.select_nv{
+	width: 10rem;
+	display: inline-block;
+	font-size: 15px;
+	
+	font-weight: 700;
+	/* letter-spacing: 2px; */
+	/* padding-bottom: 10px; */
+	margin-bottom: 10px;
+}
 .primary-btn {
 	display: inline-block;
 	font-size: 14px;
