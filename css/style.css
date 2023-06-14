@@ -30,12 +30,11 @@
 /* Template default CSS
 /*----------------------------------------*/
 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 html,
 body {
 	height: 100%;
-	font-family: "Cairo", sans-serif;
-	-webkit-font-smoothing: antialiased;
-	font-smoothing: antialiased;
+	font-family: 'Open Sans', sans-serif;
 }
 
 h1,
@@ -47,7 +46,7 @@ h6 {
 	margin: 0;
 	color: #111111;
 	font-weight: 400;
-	font-family: "Cairo", sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 
 h1 {
@@ -76,7 +75,7 @@ h6 {
 
 p {
 	font-size: 16px;
-	font-family: "Cairo", sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	color: #6f6f6f;
 	font-weight: 400;
 	line-height: 26px;
@@ -405,6 +404,10 @@ ol {
 
 .header__top__right__auth a i {
 	margin-right: 6px;
+}
+
+.banner{
+	display: none;
 }
 
 .header__logo {
@@ -1040,7 +1043,9 @@ ol {
 /*---------------------
   Breadcrumb
 -----------------------*/
-
+.breadcrumb-section{
+	display: none !important;
+}
 .breadcrumb-section {
 	display: flex;
 	align-items: center;
@@ -1704,6 +1709,10 @@ ol {
 	height: 120px;
 }
 
+.info{
+	display: none;
+}
+
 .product__details__info{
 	margin-bottom: 20px;
 }
@@ -1815,7 +1824,6 @@ ol {
 	display: inline-block;
 	margin-right: 6px;
 }
-
 .pro-qty {
 	width: 140px;
 	height: 50px;
