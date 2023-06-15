@@ -162,11 +162,15 @@ ol {
 	width: 10rem;
 	display: inline-block;
 	font-size: 15px;
-	
+	padding-bottom: 2.5rem;
 	font-weight: 700;
 	/* letter-spacing: 2px; */
 	/* padding-bottom: 10px; */
 	margin-bottom: 10px;
+}
+.modal-header{
+	align-items: center;
+
 }
 .primary-btn {
 	display: inline-block;
